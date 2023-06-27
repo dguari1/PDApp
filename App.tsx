@@ -13,7 +13,7 @@ import {Camera, useCameraDevices, useFrameProcessor} from 'react-native-vision-c
 import 'react-native-reanimated'
 
 import { imageLabeler } from './frameProcessor/frameProcessor';
-import { faceLandmarksDetector } from './frameProcessor/frameLandmarks';
+import { faceLandmarksDetector } from './frameProcessor/frameLandmarks'; 
 
 function App() {
   const camera = useRef(null);
